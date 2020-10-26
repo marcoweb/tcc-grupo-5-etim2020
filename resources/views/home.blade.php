@@ -31,7 +31,7 @@
                     <div id=slider>
                         <img src="/img/img1.png" width=calc(1600/(1006/360))px height=360px>
                     </div>
-                    <a class=next> <img src="/img/seta.png"> </a>
+                    <a class=next> haaa<img src="/img/seta.png"> </a>
                     </div>
                 </div>
             </div>
