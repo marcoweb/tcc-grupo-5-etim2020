@@ -3,7 +3,7 @@
     <head>
         <title>Vestibulando</title>
         <meta charset="utf-8">   
-        <link href="/css/index.css" rel="stylesheet">
+        <link href="/css/redacao.css" rel="stylesheet">
     </head>
     <body>
         <div id=tela>
@@ -25,6 +25,12 @@
             </header>
             </div>
             
+            <div id = content>
+                <div id = info>
+
+                </div>
+            </div>
+
             <div id=rodape>
             <div class="row">
   <div class="column"><div class=rodapeinfo><img src="/img/logo_r.png">
