@@ -26,6 +26,54 @@
     position: sticky;
 }
 
+#menu {
+    width: 99,5%;   
+    height: 40px;
+    position: absolute;
+    margin-left: 8px;
+    margin-right: auto; 
+    margin-top: -5px;
+}
+
+.links{
+    margin-left: 30px;
+    margin-top: 3px;
+    vertical-align: middle;
+}
+
+.links a{
+    font-family: Yu Gothic;
+    color: #7ecd4bff;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none; 
+    margin-inline-end: 80px;
+
+}
+
+input[type=text]{
+    position: relative;
+    width: 40%;
+    height: 23px;
+    border: solid #5aa02cff;
+    background-color: white;
+    font-family: Nirmala UI;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+}
+
+input[type=submit]{
+    background:url("/img/lupa.png");
+    width: 19px;
+    height: 24px;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 38.5%;
+    margin-top: 4px;
+}
+
 #content {
     width: 100%;
     height: fit-content;
@@ -71,54 +119,6 @@
     bottom: -10;
     left: 0;
     margin: auto;
-}
-
-#menu {
-    width: 99,5%;   
-    height: 40px;
-    position: absolute;
-    margin-left: 8px;
-    margin-right: auto;
-    
-}
-
-.links{
-    margin-left: 30px;
-    margin-top: 3px;
-    vertical-align: middle;
-}
-
-.links a{
-    font-family: Yu Gothic;
-    color: #7ecd4bff;
-    font-weight: bolder;
-    font-size: 20px;
-    text-decoration: none; 
-    margin-inline-end: 80px;
-
-}
-
-input[type=text]{
-    position: relative;
-    width: 40%;
-    height: 23px;
-    border: solid #5aa02cff;
-    background-color: white;
-    font-family: Nirmala UI;
-    font-size: 20px;
-    color: black;
-    position: absolute;
-}
-
-input[type=submit]{
-    background:url("/img/lupa.png");
-    width: 19px;
-    height: 24px;
-    border: 0;
-    cursor: pointer;
-    position: absolute;
-    margin-left: 38.5%;
-    margin-top: 4px;
 }
 
 #rodape{

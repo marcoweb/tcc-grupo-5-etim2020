@@ -25,14 +25,14 @@
             </header>
             </div>
             <div id=content>
-            <div id=rettop>
-            </div>
-            <div id=retangulo>
-            </div>
-            <div class="container" id=retmenu>
-                <img class="center" src="/img/menu1.png">
-                <img class="center1" src="/img/menu1.png">
-            </div>         
+                <div id=rettop>
+                </div>
+                <div id=retangulo>
+                 </div>
+                <div class="container" id=retmenu>
+                    <img class="center" src="/img/menu1.png">
+                    <img class="center1" src="/img/menu1.png">
+                </div>         
             </div>
             <div id=colunas>
                 <div class=col1>
