@@ -25,6 +25,6 @@ Route::get('/welcome',function(){
     return view('welcome');
 });
 
-Route::get('/redacao',function(){
-    return view('redacao');
+Route::get('/provaegabarito',function(){
+    return view('provaegabarito');
 });

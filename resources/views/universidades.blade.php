@@ -3,7 +3,7 @@
     <head>
         <title>Vestibulando</title>
         <meta charset="utf-8">   
-        <link href="/css/provaegabarito.css" rel="stylesheet">
+        <link href="/css/index.css" rel="stylesheet">
     </head>
     <body>
         <div id=tela>
@@ -13,7 +13,7 @@
                 <nav id=menu>
                     <div class=links>
                         <a href= "/welcome"><c>Home</c></a>
-                        <a href= "/provaegabarito">Universidades</a>
+                        <a href= "/welcome">Universidades</a>
                         <a href= "/welcome">Redações</a>
                         <a href= "/welcome">Quem Somos</a>
                         <a href= "/welcome">Cadastro/Login</a>
@@ -25,14 +25,15 @@
             </header>
             </div>
             <div id=content>
-            <div id=rettop>
-            </div>
-            <div id=retangulo>
-            </div>
-            <div class="container" id=retmenu>
-                <img class="center" src="/img/menu1.png">
-                <img class="center1" src="/img/menu1.png">
-            </div>         
+                <div id=sslider>
+                    <div id=sliderbg>
+                    <a class=prev> <img src="/img/seta.png"> </a>
+                    <div id=slider>
+                        <img src="/img/img1.png" width=calc(1600/(1006/360))px height=360px>
+                    </div>
+                    <a class=next> haaa<img src="/img/seta.png"> </a>
+                    </div>
+                </div>
             </div>
             <div id=colunas>
                 <div class=col1>
