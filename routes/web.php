@@ -28,3 +28,7 @@ Route::get('/welcome',function(){
 Route::get('/provaegabarito',function(){
     return view('provaegabarito');
 });
+
+Route::get('/redacao',function(){
+    return view('redacao');
+});
