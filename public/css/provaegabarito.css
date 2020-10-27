@@ -28,7 +28,7 @@
 
 #content {
     width: 100%;
-    height: fit-content;
+    height: auto;
 }
 
 #rettop {
@@ -38,37 +38,46 @@
     padding-top: 50px;  
 }
 
-#retangulo {
+#retescolha {
     width: 45%;
     height: 150px;
     background-color: #7ecd4bff;
     margin: 0 auto;
     border: solid #5aa02cff;
     padding-top: 50px;
+    position: relative;
+}
+
+#imagem {
+    width: 25%;
+    height: 75%;
+    background-color: white;
+    left: 5%;
+    bottom: 10;
+    position: absolute;
 }
 
 #retmenu {
     width: 50%;
-    height: 150px;
+    height: 200px;
     margin: 0 auto;
-    padding-top: 50px;  
-    position: relative
+    position: relative;
 }
 
-.center {
+.menu1 {
     position: absolute;
-    top: 0;
+    top: 65px;
     right: 0;
-    bottom: 10;
+    bottom: 0;
     left: 0;
     margin: auto;
 }
 
-.center1 {
+.menu2 {
     position: absolute;
-    top: 0;
+    top: -112px;
     right: 0;
-    bottom: -10;
+    bottom: 0;
     left: 0;
     margin: auto;
 }

@@ -27,11 +27,14 @@
             <div id=content>
             <div id=rettop>
             </div>
-            <div id=retangulo>
+            <div id=retescolha>
+                <div id=imagem>
+
+                </div>
             </div>
             <div class="container" id=retmenu>
-                <img class="center" src="/img/menu1.png">
-                <img class="center1" src="/img/menu1.png">
+                <img class="menu1" src="/img/menu1.png">
+                <img class="menu2" src="/img/menu1.png">
             </div>         
             </div>
             <div id=colunas>
