@@ -25,15 +25,14 @@
             </header>
             </div>
             <div id=content>
-                <div id=sslider>
-                    <div id=sliderbg>
-                    <a class=prev> <img src="/img/seta.png"> </a>
-                    <div id=slider>
-                        <img src="/img/img1.png" width=calc(1600/(1006/360))px height=360px>
-                    </div>
-                    <a class=next> <img src="/img/seta.png"> </a>
-                    </div>
-                </div>
+            <div id=rettop>
+            </div>
+            <div id=retangulo>
+            </div>
+            <div class="container" id=retmenu>
+                <img class="center" src="/img/menu1.png">
+                <img class="center1" src="/img/menu1.png">
+            </div>         
             </div>
             <div id=colunas>
                 <div class=col1>
