@@ -28,3 +28,7 @@ Route::get('/welcome',function(){
 Route::get('/redacao',function(){
     return view('redacao');
 });
+
+Route::get('/universidades',function(){
+    return view('universidades');
+});

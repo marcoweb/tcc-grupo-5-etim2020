@@ -1,0 +1,182 @@
+#tela {
+    width: 100%;
+    height: auto;
+    margin-left: -15px;
+    overflow: hidden;
+    margin: auto;
+}
+
+#headerph {
+    width: 100%;
+    height: 124px;
+    position: relative;
+}
+
+#cabecalho {
+    background-image: url("/img/cabecalho.png");
+    background-color: white;
+    background-size: 100%;
+    width: 100%;
+    height: 114px;
+    margin-top: -10px;
+    padding-top: 10px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-y: left;
+    position: sticky;
+}
+
+#content {
+    width: 100%;
+    height: fit-content;
+}
+
+#menu {
+    width: 99,5%;   
+    height: 40px;
+    position: absolute;
+    margin-left: 8px;
+    margin-right: auto;
+    
+}
+
+#sslider {
+    text-align: center;
+    width: 100%;
+    height: 550px;
+    line-height: 550px;
+    position: relative;
+}
+
+#sliderbg{
+    display: inline-block;
+    width: 100%;
+    height: 250px;
+    background-color: #d6e6cbff;
+    vertical-align: middle;
+    line-height: 260px;
+    position: relative;
+}
+
+#slider{
+    display: inline-block;
+    width: 800px;
+    height: 360px;
+    background-color: #1a1a1aff;
+    margin-top: -55px;
+
+}
+
+.prev, .next{
+    display: inline-block;
+    width: 42x;
+    height: 50px;
+    opacity: 50%;
+    margin-top: -50px;
+    vertical-align: middle;
+}
+
+.prev:hover, .next:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
+
+
+.prev img{
+    transform: scaleX(-1);
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.links{
+    margin-left: 30px;
+    margin-top: 3px;
+    vertical-align: middle;
+}
+
+.links a{
+    font-family: Yu Gothic;
+    color: #7ecd4bff;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none; 
+    margin-inline-end: 80px;
+
+}
+
+input[type=text]{
+    position: relative;
+    width: 40%;
+    height: 23px;
+    border: solid #5aa02cff;
+    background-color: white;
+    font-family: Nirmala UI;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+}
+
+input[type=submit]{
+    background:url("/img/lupa.png");
+    width: 19px;
+    height: 24px;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 38.5%;
+    margin-top: 4px;
+}
+
+#slider img{
+    margin: auto;
+}
+
+#rodape{
+    width: 100%;
+    height: 70px;
+    background-color: #42513aff;
+    align-self: flex-start;
+    font-family: Arial;
+    font-size: 12px;
+    color: white;
+    
+}
+
+.rodapeinfo{
+    padding-top: 15px;
+    margin-left: 10px;
+
+}
+
+.rodapeinfo2{
+    text-align: right;
+    margin-top: 15px;
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+
+.column {
+    float: left;
+    height: 70px;
+    width: 50%;
+  }
+
+#head-top{
+    width: 10px;
+    height: 20px;  
+    padding-top: 20px;
+  
+}
+
+#retangulo{
+    width: 65%;
+    background-color: #5aa02cff;
+    height: 50%;
+    border:  10px solid #488123ff;
+    overflow: hidden;
+    top: 38px;
+    margin: auto;}
+  

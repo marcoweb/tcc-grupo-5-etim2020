@@ -3,7 +3,7 @@
     <head>
         <title>Vestibulando</title>
         <meta charset="utf-8">   
-        <link href="/css/index.css" rel="stylesheet">
+        <link href="/css/universidades.css" rel="stylesheet">
     </head>
     <body>
         <div id=tela>
@@ -26,12 +26,8 @@
             </div>
             <div id=content>
                 <div id=sslider>
-                    <div id=sliderbg>
-                    <a class=prev> <img src="/img/seta.png"> </a>
-                    <div id=slider>
-                        <img src="/img/img1.png" width=calc(1600/(1006/360))px height=360px>
-                    </div>
-                    <a class=next> haaa<img src="/img/seta.png"> </a>
+                    <div id=head-top> </div>
+                    <div id=retangulo>
                     </div>
                 </div>
             </div>
