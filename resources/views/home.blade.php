@@ -12,8 +12,8 @@
                 <img  src="/img/logo.png">
                 <nav id=menu>
                     <div class=links>
-                        <a href= "/welcome"><c>Home</c></a>
-                        <a href= "/welcome">Universidades</a>
+                        <a href= "/home"><c>Home</c></a>
+                        <a href= "/universidades">Universidades</a>
                         <a href= "/welcome">Redações</a>
                         <a href= "/welcome">Quem Somos</a>
                         <a href= "/welcome">Cadastro/Login</a>
