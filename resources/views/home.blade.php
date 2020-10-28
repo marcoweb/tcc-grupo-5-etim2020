@@ -24,35 +24,43 @@
                 </nav>
             </header>
             </div>
-            <div id=content>
-                <div id=sslider>
+            <main id=content>
                     <div id=sliderbg>
                     <a class=prev> <img src="/img/seta.png"> </a>
                     <div id=slider>
-                        <img src="/img/img1.png" width=calc(1600/(1006/360))px height=360px>
+                        <ul class=slider>
+                        <li>
+                        <input type="radio" id="slide1" name="slide" checked>
+                        <label for="slide1"></label>
+                        <img src="/img/img1.png" width=calc(100%/(1006/360))px height=360px>
+                        </li>
+                        <li>
+                        <input type="radio" id="slide2" name="slide">
+                        <label for="slide2"></label>
+                        <img src="/img/img2.png" width=calc(100%/(1024/360))px height=360px>
+                        </li>
+                        <li>
+                        <input type="radio" id="slide3" name="slide">
+                        <label for="slide3"></label>
+                        <img src="/img/img3.png" width=calc(100%/(1006/360))px height=360px>
+                        </li>
+                        </ul>
                     </div>
-                    <a class=next> haaa<img src="/img/seta.png"> </a>
+                    <a class=next><img src="/img/seta.png"> </a>
                     </div>
-                </div>
             </div>
             <div id=colunas>
-                <div class=col1>
-                </div>
-                <div class=col2>
-                </div>
-                <div class=col3>
-                </div>
+                
             </div>
-            <div id=rodape>
+            <footer id=rodape>
             <div class="row">
   <div class="column"><div class=rodapeinfo><img src="/img/logo_r.png">
                     <br>Contato: gustavo.zwicker@etec.sp.gov.br</br></div></div>
   <div class="column"><div class=rodapeinfo2>Copyright (c) - 2020 Vestibulando Informação e Vestibulares
                     <p>Todos os direitos reservados</p></div></div>
             </div>
-                </div>
-            </div>
-            <b></b>
+</footer>
+    </main>
         </div>
     </body>
 </html>
