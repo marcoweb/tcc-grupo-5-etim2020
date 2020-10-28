@@ -1,3 +1,5 @@
+* { margin: 0; padding: 0; }
+
 #tela {
     width: 100%;
     height: auto;
@@ -28,7 +30,7 @@
 
 #content {
     width: 100%;
-    height: fit-content;
+    height: 600px;
 }
 
 #menu {
@@ -171,12 +173,38 @@ input[type=submit]{
   
 }
 
+.head-top2{
+    padding-top: 10px;
+  
+}
+
 #retangulo{
     width: 65%;
     background-color: #5aa02cff;
     height: 50%;
     border:  10px solid #488123ff;
-    overflow: hidden;
     top: 38px;
-    margin: auto;}
-  
+    margin: auto; 
+    z-index: 2;}
+
+.img img{
+    border:  5px solid  #d6e6cbff;
+    margin-top: -200px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.univer{
+    margin-left: 470px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: Arial;
+    color: white;
+}
+
+.estrelinha img{
+    margin-left: 972px;
+    margin-bottom: -90px;
+    z-index:1;
+}

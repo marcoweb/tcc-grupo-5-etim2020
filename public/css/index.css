@@ -28,7 +28,7 @@
 
 #content {
     width: 100%;
-    height: fit-content;
+    height: 1000px;
 }
 
 #menu {
@@ -163,4 +163,3 @@ input[type=submit]{
     height: 70px;
     width: 50%;
   }
-  
