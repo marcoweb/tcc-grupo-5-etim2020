@@ -26,17 +26,32 @@
             </div>
             
             <div id = content>
-                <div id = info>
-
+                <div id=retangulo>
+                    <img src="/img/divisas.png">
+                    <div class="row">
+                        <div class="divisao">
+                            <h2>Vunesp</h2>
+                            <h3>2019</h3>
+                        </div>
+                        <h4>Tamara Yamamoto</h4>
+                        <h5>Nota máxima (28/28)</h5>
+                    </div>
+                </div>
+                <div id=redretangulo>
+                    <div id=redfix>
+                        <img src="/img/redacao.png" alt="imagem">
+                    </div>
                 </div>
             </div>
+        </div>
 
             <div id=rodape>
             <div class="row">
   <div class="column"><div class=rodapeinfo><img src="/img/logo_r.png">
                     <br>Contato: gustavo.zwicker@etec.sp.gov.br</br></div></div>
-  <div class="column"><div class=rodapeinfo2>Copyright (c) - 2020 Vestibulando Informação e Vestibulares
-                    <p>Todos os direitos reservados</p></div></div>
+
+  <div class="column"><div class=rodapeinfo2>Copyright (c) - 2020 Vestibulando Informação e Vestibulares </br> </br>
+                    Todos os direitos reservados</div></div>
             </div>
                 </div>
             </div>
