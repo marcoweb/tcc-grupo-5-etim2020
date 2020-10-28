@@ -1,3 +1,4 @@
+
 #tela {
     width: 100%;
     height: auto;
@@ -87,22 +88,52 @@ input[type=submit]{
 }
 
 #retescolha {
-    width: 45%;
+    width: 50%;
     height: 150px;
-    background-color: #7ecd4bff;
+    background-color: #5aa02cff;
     margin: 0 auto;
-    border: solid #5aa02cff;
+    border: solid #488123ff;
     padding-top: 50px;
     position: relative;
 }
 
-#imagem {
-    width: 25%;
-    height: 75%;
-    background-color: white;
-    left: 5%;
-    bottom: 10;
-    position: absolute;
+#coluna1 {
+    float: left;
+    height: 133%;
+    width: 45%;
+    margin-top: -50px;
+}
+
+.escolhido {
+  border-radius: 4px;
+  padding: 4%;
+  width: 300px;
+}
+
+#coluna2 {
+    float: left;
+    height: 133%;
+    width: 55%;
+    margin-top: -50px;
+}
+
+.Fixo{
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+    font-family: Yu Gothic;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Universidades {
+    color: white;
+    text-align: center;
+    font-family: Yu Gothic;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.0;
+    text-shadow: 10px;
 }
 
 #retmenu {
@@ -114,7 +145,7 @@ input[type=submit]{
 
 .menu1 {
     position: absolute;
-    top: 65px;
+    top: 60px;
     right: 0;
     bottom: 0;
     left: 0;

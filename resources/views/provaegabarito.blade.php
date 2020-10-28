@@ -25,28 +25,29 @@
             </header>
             </div>
             <div id=content>
-<<<<<<< HEAD
             <div id=rettop>
             </div>
             <div id=retescolha>
-                <div id=imagem>
-
+                <div id=coluna1>
+                    <img class="escolhido" src="/img/USP.png">
+                </div>
+                <div id=coluna2>
+                    <div class="Fixo">
+                    <p>
+                        Provas e Gabaritos
+                    </p>
+                    </div>
+                    <div class="Universidades">
+                        <p>UNIVERSIDADE DE SÃO PAULO</p>
+                        <p>(USP)</p>
+                        <p>Estado: <span style="color: #aee08dff;">São Paulo</span></p> 
+                    </div>
                 </div>
             </div>
             <div class="container" id=retmenu>
                 <img class="menu1" src="/img/menu1.png">
                 <img class="menu2" src="/img/menu1.png">
             </div>         
-=======
-                <div id=rettop>
-                </div>
-                <div id=retangulo>
-                 </div>
-                <div class="container" id=retmenu>
-                    <img class="center" src="/img/menu1.png">
-                    <img class="center1" src="/img/menu1.png">
-                </div>         
->>>>>>> ecfdfe5628d8b51acb29742605b05c95b0eafafd
             </div>
             <div id=colunas>
                 <div class=col1>
