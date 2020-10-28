@@ -214,8 +214,7 @@ margin-left: -58px;
     height: 70px;
     width: 50%;
   }
-  
-#colunas{
+  #colunas{
     column-width: 60px;
     column-count: 3;
     column-gap: 30px;

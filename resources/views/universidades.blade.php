@@ -3,7 +3,7 @@
     <head>
         <title>Vestibulando</title>
         <meta charset="utf-8">   
-        <link href="/css/index.css" rel="stylesheet">
+        <link href="/css/universidades.css" rel="stylesheet">
     </head>
     <body>
         <div id=tela>
@@ -24,31 +24,51 @@
                 </nav>
             </header>
             </div>
+
             <div id=content>
-                <div id=sslider>
-                    <div id=sliderbg>
-                    <a class=prev> <img src="/img/seta.png"> </a>
-                    <div id=slider>
-                        <img src="/img/img1.png" width=calc(1600/(1006/360))px height=360px>
+                    <div id=head-top> </div>
+                    <div>
+                    <div id=retangulo>
+                    <div class="univer">
+                    UNIVERDIDADE DE SÃO PAULO <p>         (USP) </p> </div>
+                    <div class=estrelinha>
+                    <img src="/img/estrelinha.png"></div>
+                    <div class=img>
+                    <img src="/img/usp_logo.jpg" width=400px height=260px></div>
                     </div>
-                    <a class=next> haaa<img src="/img/seta.png"> </a>
+
+                    <div id=head-top> </div>
+                    <div class=head_top2>
+                    <div id=retangulo>
+                    <div class="univer">
+                    UNIVERDIDADE DE SÃO PAULO <p>(USP) </p> </div>
+                    <div class=estrelinha>
+                    <img src="/img/estrelinha.png"></div>
+                    <div class=img>
+                    <img src="/img/usp_logo.jpg" width=400px height=260px></div>
                     </div>
-                </div>
+
+                    <div id=head-top> </div>
+                    <div class=head_top2>
+                    <div id=retangulo>
+                    <div class="univer">
+                    UNIVERDIDADE DE SÃO PAULO <p>(USP) </p> </div>
+                    <div class=estrelinha>
+                    <img src="/img/estrelinha.png"></div>
+                    <div class=img>
+                    <img src="/img/usp_logo.jpg" width=400px height=260px></div>
+                    </div>
+                    <div id=head-top> </div>
+                </div>   
             </div>
-            <div id=colunas>
-                <div class=col1>
-                </div>
-                <div class=col2>
-                </div>
-                <div class=col3>
-                </div>
             </div>
+
             <div id=rodape>
             <div class="row">
-  <div class="column"><div class=rodapeinfo><img src="/img/logo_r.png">
-                    <br>Contato: gustavo.zwicker@etec.sp.gov.br</br></div></div>
-  <div class="column"><div class=rodapeinfo2>Copyright (c) - 2020 Vestibulando Informação e Vestibulares
-                    <p>Todos os direitos reservados</p></div></div>
+                <div class="column"><div class=rodapeinfo><img src="/img/logo_r.png">
+                <br>Contato: gustavo.zwicker@etec.sp.gov.br</br></div></div>
+                <div class="column"><div class=rodapeinfo2>Copyright (c) - 2020 Vestibulando Informação e Vestibulares
+                <p>Todos os direitos reservados</p></div></div>
             </div>
                 </div>
             </div>
