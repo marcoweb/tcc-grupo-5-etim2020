@@ -42,36 +42,9 @@
     
 }
 
-#sslider {
-    text-align: center;
-    width: 100%;
-    height: 550px;
-    line-height: 550px;
-    position: relative;
-}
-
-#sliderbg{
-    display: inline-block;
-    width: 100%;
-    height: 250px;
-    background-color: #d6e6cbff;
-    vertical-align: middle;
-    line-height: 260px;
-    position: relative;
-}
-
-#slider{
-    display: inline-block;
-    width: 800px;
-    height: 360px;
-    background-color: #1a1a1aff;
-    margin-top: -55px;
-
-}
-
 .prev, .next{
     display: inline-block;
-    width: 42x;
+    width: 42px;
     height: 50px;
     opacity: 50%;
     margin-top: -50px;
