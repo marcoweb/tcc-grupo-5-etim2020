@@ -152,7 +152,7 @@ input[type=submit]{
 }
 
 #retangulo{
-    width: 925px;
+    width: 975px;
     background-color: #5aa02cff;
     height: 310px;
     border:  10px solid #488123ff;
@@ -162,14 +162,15 @@ input[type=submit]{
 
 .img img{
     border:  5px solid  #d6e6cbff;
-    margin-top: -100px;
+    margin-top: -270px;
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
 }
 
 .univer{
-    margin-left: 470px;
+    text-align: center;
+    margin-left: 430px;
     margin-top: 20px;
     font-size: 30px;
     font-family: Arial;
@@ -179,8 +180,8 @@ input[type=submit]{
 input[type=checkbox].css-checkbox{ display: none; }
 
 .css-label{
-    margin-left: 1137px;
-    margin-top:-132px;
+    margin-left: 1160px;
+    margin-top:-131px;
     display: flex;
     opacity: 50%;
     height:131px;
@@ -190,7 +191,12 @@ input[type=checkbox].css-checkbox{ display: none; }
 }
 
 input[type=checkbox].css-checkbox:checked + label.css-label {
- background-position: 0 0;
- background-image: url(/img/estrelinha.png);
- opacity: 100%;
+    background-position: 0 0;
+    background-image: url(/img/estrelinha.png);
+    opacity: 100%;
+}
+
+a{
+font-style: bold;
+color:#3b691dff;
 }

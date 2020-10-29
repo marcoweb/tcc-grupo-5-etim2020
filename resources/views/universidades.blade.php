@@ -31,7 +31,11 @@
                     <div>
                     <div id=retangulo>
                     <div class="univer">
-                    UNIVERDIDADE DE SÃO PAULO <p>         (USP) </p> </div>
+                    UNIVERSIDADE DE SÃO PAULO <p>(USP)</p>
+                    <p><br><br>Estado: <span style="color: #ccccccff;">São Paulo</span></p>
+                    <p><br><br><a href="http://127.0.0.1:8000/provaegabarito">MAIS INFORMAÇÕES</a> </p>
+                    </div>
+                    
                     <div class=img>
                     <img src="/img/usp_logo.jpg" width=400px height=260px></div>
                     </div>
@@ -43,7 +47,11 @@
                     <div class=head_top2>
                     <div id=retangulo>
                     <div class="univer">
-                    UNIVERDIDADE DE SÃO PAULO <p>(USP) </p> </div>
+                    UNIVERSIDADE DE SÃO PAULO <p>(USP) </p>
+                    <p><br><br>Estado: <span style="color: #ccccccff;">São Paulo</span></p>
+                    <p><br><br><a href="http://127.0.0.1:8000/provaegabarito">MAIS INFORMAÇÕES</a> </p>
+                    </div>
+
                     <div class=img>
                     <img src="/img/usp_logo.jpg" width=400px height=260px></div>
                     </div>
@@ -55,7 +63,10 @@
                     <div class=head_top2>
                     <div id=retangulo>
                     <div class="univer">
-                    UNIVERDIDADE DE SÃO PAULO <p>(USP) </p> </div>
+                    UNIVERSIDADE DE SÃO PAULO <p>(USP)</p>
+                    <p><br><br>Estado: <span style="color: #ccccccff;">São Paulo</span></p>
+                    <p><br><br><a href="http://127.0.0.1:8000/provaegabarito">MAIS INFORMAÇÕES</a> </p>
+                    </div>
                     <div class=img>
                     <img src="/img/usp_logo.jpg" width=400px height=260px></div>
                     </div>
