@@ -26,38 +26,42 @@
             </div>
 
             <div id=content>
+
                     <div id=head-top> </div>
                     <div>
                     <div id=retangulo>
                     <div class="univer">
                     UNIVERDIDADE DE SÃO PAULO <p>         (USP) </p> </div>
-                    <div class=estrelinha>
-                    <img src="/img/estrelinha.png"></div>
                     <div class=img>
                     <img src="/img/usp_logo.jpg" width=400px height=260px></div>
                     </div>
+                    
+                    <input id="checkboxid" type="checkbox" class="css-checkbox">
+                    <label for="checkboxid" class="css-label"></label>
 
                     <div id=head-top> </div>
                     <div class=head_top2>
                     <div id=retangulo>
                     <div class="univer">
                     UNIVERDIDADE DE SÃO PAULO <p>(USP) </p> </div>
-                    <div class=estrelinha>
-                    <img src="/img/estrelinha.png"></div>
                     <div class=img>
                     <img src="/img/usp_logo.jpg" width=400px height=260px></div>
                     </div>
+
+                    <input id="checkboxid1" type="checkbox" class="css-checkbox">
+                    <label for="checkboxid1" class="css-label"></label>
 
                     <div id=head-top> </div>
                     <div class=head_top2>
                     <div id=retangulo>
                     <div class="univer">
                     UNIVERDIDADE DE SÃO PAULO <p>(USP) </p> </div>
-                    <div class=estrelinha>
-                    <img src="/img/estrelinha.png"></div>
                     <div class=img>
                     <img src="/img/usp_logo.jpg" width=400px height=260px></div>
                     </div>
+                    <input id="checkboxid2" type="checkbox" class="css-checkbox">
+                    <label for="checkboxid2" class="css-label"></label>
+                    
                     <div id=head-top> </div>
                 </div>   
             </div>
