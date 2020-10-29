@@ -44,7 +44,7 @@
 
 .prev, .next{
     display: inline-block;
-    width: 42px;
+    width: 42x;
     height: 50px;
     opacity: 50%;
     margin-top: -50px;
@@ -142,7 +142,7 @@ input[type=submit]{
 #head-top{
     width: 10px;
     height: 20px;  
-    padding-top: 20px;
+    margin-top: 20px;
   
 }
 
@@ -152,17 +152,17 @@ input[type=submit]{
 }
 
 #retangulo{
-    width: 65%;
+    width: 925px;
     background-color: #5aa02cff;
-    height: 50%;
+    height: 310px;
     border:  10px solid #488123ff;
     top: 38px;
-    margin: auto; 
+        margin: auto; 
     z-index: 2;}
 
 .img img{
     border:  5px solid  #d6e6cbff;
-    margin-top: -200px;
+    margin-top: -100px;
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -176,8 +176,21 @@ input[type=submit]{
     color: white;
 }
 
-.estrelinha img{
-    margin-left: 972px;
-    margin-bottom: -90px;
-    z-index:1;
+input[type=checkbox].css-checkbox{ display: none; }
+
+.css-label{
+    margin-left: 1137px;
+    margin-top:-132px;
+    display: flex;
+    opacity: 50%;
+    height:131px;
+    background-image: url(/img/estrelinha.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+input[type=checkbox].css-checkbox:checked + label.css-label {
+ background-position: 0 0;
+ background-image: url(/img/estrelinha.png);
+ opacity: 100%;
 }
