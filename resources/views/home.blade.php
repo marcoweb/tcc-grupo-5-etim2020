@@ -1,30 +1,10 @@
-<!doctype html>
-<html>
-    <head>
-        <title>Vestibulando</title>
-        <meta charset="utf-8">   
-        <link href="/css/index.css" rel="stylesheet">
-    </head>
-    <body>
-        <div id=tela>
-            <div id=headerph>
-            <header id=cabecalho>
-                <img  src="/img/logo.png">
-                <nav id=menu>
-                    <div class=links>
-                        <a href= "/home"><c>Home</c></a>
-                        <a href= "/universidades">Universidades</a>
-                        <a href= "/welcome">Redações</a>
-                        <a href= "/welcome">Quem Somos</a>
-                        <a href= "/welcome">Cadastro/Login</a>
-                        <input type="text" placeholder="Pesquise no Vestibulando">
-                        <input type="submit" value="">
+@extends('template')
 
-                    </div>
-                </nav>
-            </header>
-            </div>
-                <main id=content>
+@section('title','Home')
+
+@section('stylesheet','/css/home.css')
+
+@section('content')
                     <div id=sliderbg>
                         <a class=prev> <img src="/img/seta.png"> </a>
                             <div id=slider>
@@ -51,7 +31,7 @@
                     <div id=row>
                         <div id=colu1>
                             <img class=coluimg src="/img/unesplogo.png">
-                            <h1>Universidade Estadual <br>Paulista</br></h1>
+                            <h1>Universidade Estadual <br>Paulista</    br></h1>
                             <h2><a href= "/welcome">Mais informações</a><h2>
                         </div>
                         <div id=colu2>
@@ -65,15 +45,4 @@
                             <h2><a href= "/welcome">Mais informações</a><h2>
                         </div>
                     </div>
-                </main>
-            </div>
-            <footer id=rodape>
-  <div class="column"><div class=rodapeinfo><img src="/img/logo_r.png">
-                    <br>Contato: gustavo.zwicker@etec.sp.gov.br</br></div></div>
-  <div class="column"><div class=rodapeinfo2>Copyright (c) - 2020 Vestibulando Informação e Vestibulares
-                    <p>Todos os direitos reservados</p></div></div>
-</footer>
-    </main>
-        </div>
-    </body>
-</html>
+@endsection
