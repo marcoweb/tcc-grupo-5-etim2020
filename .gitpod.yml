@@ -1,4 +1,4 @@
 
 image: gitpod/workspace-mysql
 tasks:
-  - init: cd applaravel; composer install; cp .env.example .env; php artisan key:generate; cd ..
+  - init: cd applaravel; composer install; cp .env.example .env; php artisan key:generate; cd ..;mysql -u root -e "CREATE DATABASE laravel";
