@@ -36,3 +36,7 @@ Route::get('/redacao',function(){
 Route::get('/universidades',function(){
     return view('universidades');
 });
+
+Route::get('/cadastro',function(){
+    return view('cadastro');
+});
