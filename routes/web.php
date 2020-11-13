@@ -40,3 +40,7 @@ Route::get('/universidades',function(){
 Route::get('/cadastro',function(){
     return view('cadastro');
 });
+
+Route::get('/vestibulando',function(){
+    return view('vestibulando');
+});

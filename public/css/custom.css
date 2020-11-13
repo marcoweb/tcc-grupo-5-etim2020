@@ -1,0 +1,18 @@
+.navbar-light .navbar-nav .nav-link {
+    color: #7ecd4b;
+    font-weight: bolder;
+}
+
+.navbar-light {
+    border-bottom: solid 4pt #7ecd4b;
+}
+
+.bg-dark-green {
+    background-color: #42513a;
+}
+
+#header {
+    background-image: url("/img/cabecalho.png");
+    background-color: white;
+    background-size: 100%;
+}
